@@ -1,0 +1,1 @@
+This repository contains a simple C program that demonstrates an integer overflow bug. The program initializes an integer variable x to 10 and then uses a pointer to change its value to 20. This is a common bug that can have serious consequences in real-world applications. The bugSolution.c file provides a corrected version of the code.
