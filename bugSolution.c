@@ -1,0 +1,1 @@
+int main() {int x = 10;int *ptr = &x;if (*ptr + 10 <= INT_MAX) {*ptr += 10;}else {/* Handle overflow error */printf("Integer overflow occurred! ");return 1;}printf("%d", x);return 0;} 
